@@ -112,7 +112,7 @@ class TicTacToe
       end
     end
 
-    def play
+    def self.play
     end
 
   end
