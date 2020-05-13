@@ -44,6 +44,7 @@ class TicTacToe
   end
 
   def turn(user_input)
+  end
 
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
