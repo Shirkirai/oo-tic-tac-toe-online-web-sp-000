@@ -62,7 +62,9 @@ class TicTacToe
       win_index_2 = win_combo[1]
       win_index_3 = win_combo[2]
 
-      position1 = @board[win_index_1]
+      position_1 = @board[win_index_1]
+      position_2 = @board[win_index_2]
+      position_3 = @board[win_index_3]
   end
 
   def turn_count
