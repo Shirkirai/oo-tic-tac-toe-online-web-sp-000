@@ -101,7 +101,6 @@ class TicTacToe
   end
 
   def winner
-    win_index = []
     win_index = won?
 
   end
