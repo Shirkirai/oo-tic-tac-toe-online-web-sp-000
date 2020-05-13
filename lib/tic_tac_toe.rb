@@ -119,6 +119,8 @@ class TicTacToe
 
       if won?
         winner
+      elsif draw?
+        puts "Cat's Game!"
     end
 
   end
