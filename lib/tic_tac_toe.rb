@@ -35,7 +35,7 @@ class TicTacToe
   end
 
   def valid_move?(index)
-    @board[index].nil? || @board[index] == " "
+    !()@board[index].nil? || @board[index] == " ")
   end
 
 
