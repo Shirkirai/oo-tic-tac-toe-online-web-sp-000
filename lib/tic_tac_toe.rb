@@ -81,11 +81,7 @@ class TicTacToe
   end
 
   def full?
-    if !won?
-      return true
-    elsif turn_count < 9
-      return false
-    end
+    @board.all?{|token| token == "X" || token == "O"}
   end
 
 end
