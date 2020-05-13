@@ -22,6 +22,9 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
+  def input_to_index
+    strip.gets.to_s
+
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
