@@ -99,7 +99,7 @@ class TicTacToe
       false
     end
 
-    def winner
+  def winner
     end
   end
 
