@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def full?
-    if !
+    if !won?
       return true
     end
   end
