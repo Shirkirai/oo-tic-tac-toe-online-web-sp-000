@@ -116,6 +116,11 @@ class TicTacToe
       until over?
         turn
       end
+      if won?
+        puts "Congratulations!"
+      elsif draw?
+        puts "It's a draw"
+      end
     end
 
   end
