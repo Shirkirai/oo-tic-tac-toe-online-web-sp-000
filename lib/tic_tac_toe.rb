@@ -100,7 +100,6 @@ class TicTacToe
     end
 
     def winner
-      return won?.current_player
     end
   end
 
