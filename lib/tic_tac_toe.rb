@@ -72,6 +72,7 @@ class TicTacToe
         return win_combo
       end
     end
+    return false
   end
 
   def turn_count
