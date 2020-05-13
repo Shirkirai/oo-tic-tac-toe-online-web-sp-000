@@ -27,7 +27,7 @@ class TicTacToe
   end
 
   def move(index, token = "X")
-    @board[index] = token_if != "O"
+    @board[index] = token
   end
 
   def current_player
