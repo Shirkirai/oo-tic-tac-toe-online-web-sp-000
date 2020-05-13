@@ -102,6 +102,11 @@ class TicTacToe
 
   def winner
     win_index = won?
+    if @board[win_index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
 
   end
 
