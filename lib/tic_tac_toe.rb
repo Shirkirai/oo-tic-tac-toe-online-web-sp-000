@@ -50,6 +50,9 @@ class TicTacToe
     if valid_move?(index)
       move(index)
       @board
+    else
+      turn
+    end
 
   end
 
