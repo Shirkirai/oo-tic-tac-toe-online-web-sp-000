@@ -44,7 +44,7 @@ class TicTacToe
   end
 
   def turn(user_input)
-    p
+  
   end
 
   def turn_count
