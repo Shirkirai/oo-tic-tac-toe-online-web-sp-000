@@ -113,14 +113,7 @@ class TicTacToe
     end
 
     def play
-      until over?
-        turn
-      end
-      if won?
-        winner
-      elsif draw?
-        puts "It's a draw"
-      end
+      turn
     end
 
   end
