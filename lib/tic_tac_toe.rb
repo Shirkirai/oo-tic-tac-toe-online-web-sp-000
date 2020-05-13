@@ -24,6 +24,7 @@ class TicTacToe
 
   def input_to_index
     strip.gets.to_s
+  end
 
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
