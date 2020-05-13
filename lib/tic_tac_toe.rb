@@ -98,6 +98,7 @@ class TicTacToe
     else
       false
     end
+  end
 
   def winner
     end
