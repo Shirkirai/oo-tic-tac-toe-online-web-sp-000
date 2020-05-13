@@ -101,7 +101,8 @@ class TicTacToe
   end
 
   def winner
-    return current_player if won?
+    win_index = []
+    win_index = won?
 
   end
 
