@@ -57,6 +57,7 @@ class TicTacToe
   end
 
   def won?
+    !WIN_COMBINATIONS
   end
 
   def turn_count
