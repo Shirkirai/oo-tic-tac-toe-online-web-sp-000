@@ -27,7 +27,7 @@ class TicTacToe
   end
 
   def move(index, token = "X")
-    index.input_to_index
+    index
   end
 
   def current_player
