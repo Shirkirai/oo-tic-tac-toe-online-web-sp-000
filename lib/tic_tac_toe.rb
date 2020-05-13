@@ -111,6 +111,7 @@ class TicTacToe
         return "O"
       end
     end
+  end
 
   def play
     until over? == true
