@@ -23,7 +23,7 @@ class TicTacToe
   end
 
   def input_to_index(string)
-    strip.gets.to_i
+    
   end
 
   def current_player
