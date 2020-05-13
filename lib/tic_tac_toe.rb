@@ -27,6 +27,7 @@ class TicTacToe
   end
 
   def move(index, token = "X")
+    index.input_to_index(string)
 
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
