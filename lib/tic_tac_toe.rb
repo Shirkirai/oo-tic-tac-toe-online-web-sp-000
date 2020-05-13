@@ -35,6 +35,7 @@ class TicTacToe
       false
     else
       true
+    end
   end
 
   def current_player
