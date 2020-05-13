@@ -104,11 +104,12 @@ class TicTacToe
     win_index = won?
     if !win_index
       return nil
-    end
-    if @board[win_index[0]] == "X"
-      return "X"
     else
-      return "O"
+      if @board[win_index[0]] == "X"
+        return "X"
+      else
+        return "O"
+      end
     end
 
   end
